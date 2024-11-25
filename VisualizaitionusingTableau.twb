@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1112.0850                               -->
+<workbook original-version='18.1' source-build='2024.3.1 (20243.24.1112.0850)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='stadium_cleaned21,57,51.684574' inline='true' name='federated.01mj4dq0ebzn5w120w58w1q61j4d' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='stadium_cleaned21,57,51.684574' name='textscan.0e619631fjc7hs19mvi5s03hngpn'>
+            <connection class='textscan' directory='E:/apps/Downloads' filename='stadium_cleaned21,57,51.684574.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0e619631fjc7hs19mvi5s03hngpn' name='stadium_cleaned21,57,51.684574.csv' table='[stadium_cleaned21,57,51.684574#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='rank' ordinal='0' />
+            <column datatype='string' name='stadium' ordinal='1' />
+            <column datatype='integer' name='capacity' ordinal='2' />
+            <column datatype='string' name='region' ordinal='3' />
+            <column datatype='string' name='country' ordinal='4' />
+            <column datatype='string' name='city' ordinal='5' />
+            <column datatype='string' name='images' ordinal='6' />
+            <column datatype='string' name='home_team' ordinal='7' />
+            <column datatype='string' name='location' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[stadium_cleaned21,57,51.684574.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[rank]</local-name>
+            <parent-name>[stadium_cleaned21,57,51.684574.csv]</parent-name>
+            <remote-alias>rank</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stadium</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stadium]</local-name>
+            <parent-name>[stadium_cleaned21,57,51.684574.csv]</parent-name>
+            <remote-alias>stadium</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>capacity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[capacity]</local-name>
+            <parent-name>[stadium_cleaned21,57,51.684574.csv]</parent-name>
+            <remote-alias>capacity</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[region]</local-name>
+            <parent-name>[stadium_cleaned21,57,51.684574.csv]</parent-name>
+            <remote-alias>region</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[stadium_cleaned21,57,51.684574.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[stadium_cleaned21,57,51.684574.csv]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>images</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[images]</local-name>
+            <parent-name>[stadium_cleaned21,57,51.684574.csv]</parent-name>
+            <remote-alias>images</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>home_team</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[home_team]</local-name>
+            <parent-name>[stadium_cleaned21,57,51.684574.csv]</parent-name>
+            <remote-alias>home_team</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location]</local-name>
+            <parent-name>[stadium_cleaned21,57,51.684574.csv]</parent-name>
+            <remote-alias>location</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='RegionCount' datatype='integer' name='[Calculation_202662001179930624]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='count([region])' />
+      </column>
+      <column caption='stadium_cleaned21,57,51.684574.csv' datatype='table' name='[__tableau_internal_object_id__].[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]' role='measure' type='quantitative' />
+      <column caption='Capacity' datatype='integer' name='[capacity]' role='measure' type='quantitative' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Home Team' datatype='string' name='[home_team]' role='dimension' type='nominal' />
+      <column caption='Images' datatype='string' name='[images]' role='dimension' type='nominal' />
+      <column caption='Location' datatype='string' name='[location]' role='dimension' type='nominal' />
+      <column caption='Rank' datatype='integer' name='[rank]' role='measure' type='quantitative' />
+      <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+      <column caption='Stadium' datatype='string' name='[stadium]' role='dimension' type='nominal' />
+      <drill-paths>
+        <drill-path name='country, city'>
+          <field>[country]</field>
+          <field>[city]</field>
+        </drill-path>
+      </drill-paths>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/admin/AppData/Local/Temp/TableauTemp/#TableauTemp_1ktwgr21ojqkig11xi91e17aub09.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/24/2024 07:55:34 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rank</remote-alias>
+              <ordinal>0</ordinal>
+              <family>stadium_cleaned21,57,51.684574.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>381</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>stadium</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[stadium]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>stadium</remote-alias>
+              <ordinal>1</ordinal>
+              <family>stadium_cleaned21,57,51.684574.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>376</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>capacity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[capacity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>capacity</remote-alias>
+              <ordinal>2</ordinal>
+              <family>stadium_cleaned21,57,51.684574.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>280</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>region</remote-alias>
+              <ordinal>3</ordinal>
+              <family>stadium_cleaned21,57,51.684574.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>country</remote-alias>
+              <ordinal>4</ordinal>
+              <family>stadium_cleaned21,57,51.684574.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>city</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[city]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>city</remote-alias>
+              <ordinal>5</ordinal>
+              <family>stadium_cleaned21,57,51.684574.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>327</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>images</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[images]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>images</remote-alias>
+              <ordinal>6</ordinal>
+              <family>stadium_cleaned21,57,51.684574.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>358</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>home_team</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[home_team]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>home_team</remote-alias>
+              <ordinal>7</ordinal>
+              <family>stadium_cleaned21,57,51.684574.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>323</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[location]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>location</remote-alias>
+              <ordinal>8</ordinal>
+              <family>stadium_cleaned21,57,51.684574.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>381</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='stadium_cleaned21,57,51.684574.csv' id='stadium_cleaned21,57,51.684574.csv_42F4A38E1BBA4CECB6C8AED3D01EACF5'>
+            <properties context=''>
+              <relation connection='textscan.0e619631fjc7hs19mvi5s03hngpn' name='stadium_cleaned21,57,51.684574.csv' table='[stadium_cleaned21,57,51.684574#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='rank' ordinal='0' />
+                  <column datatype='string' name='stadium' ordinal='1' />
+                  <column datatype='integer' name='capacity' ordinal='2' />
+                  <column datatype='string' name='region' ordinal='3' />
+                  <column datatype='string' name='country' ordinal='4' />
+                  <column datatype='string' name='city' ordinal='5' />
+                  <column datatype='string' name='images' ordinal='6' />
+                  <column datatype='string' name='home_team' ordinal='7' />
+                  <column datatype='string' name='location' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Stadium_location_By_Regions'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='stadium_cleaned21,57,51.684574' name='federated.01mj4dq0ebzn5w120w58w1q61j4d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01mj4dq0ebzn5w120w58w1q61j4d'>
+            <column caption='RegionCount' datatype='integer' name='[Calculation_202662001179930624]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='count([region])' />
+            </column>
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_202662001179930624]' derivation='User' name='[usr:Calculation_202662001179930624:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.01mj4dq0ebzn5w120w58w1q61j4d].[usr:Calculation_202662001179930624:qk]</rows>
+        <cols>[federated.01mj4dq0ebzn5w120w58w1q61j4d].[none:region:nk]</cols>
+      </table>
+      <simple-id uuid='{B0C89B85-BE91-432E-B76B-5E1F06A8BB33}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Stadium_location_By_Regions'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.01mj4dq0ebzn5w120w58w1q61j4d].[none:region:nk]</field>
+            <field>[federated.01mj4dq0ebzn5w120w58w1q61j4d].[none:stadium:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E1BF8DF6-AF46-4631-BB8B-00353CF8C6E5}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Stadium_location_By_Regions' width='192'>
+      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
+      RU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
