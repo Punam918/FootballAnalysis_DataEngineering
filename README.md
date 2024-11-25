@@ -1,6 +1,6 @@
 
 # Football Data Engineering
-This Python-based project extracts data from Wikipedia using Apache Airflow, cleans it and pushes it Azure Data Lake for processing and further processing and visualization is done on Azure Data Factory, Azure Synapse and Tableau.
+This project leverages Python and Apache Airflow to extract data from Wikipedia. The extracted data is cleaned and stored in Azure Data Lake for further processing. Subsequent data transformation and analysis are performed using Azure Data Factory and Azure Synapse Analytics. Finally, the processed data is visualized using Tableau, enabling actionable insights and decision-making.
 
 # Requirements
 - Python 3.10
